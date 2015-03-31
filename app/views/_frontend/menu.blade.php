@@ -3,7 +3,7 @@
         @if(!$item->hasChildren())
             <a href="{{ $item->link->path['url'] }}">{{$item->title }} </a>
         @else
-            <a href="{{ $item->link->path['url'] }}">{{$item->title }} <span class="caret"></span></a>
+            <a href="{{ $item->link->path['url'] }}">{{$item->title }} <i class="fa fa-angle-down"></i></a>
         @endif
         @if ($item->hasChildren())
             <ul>

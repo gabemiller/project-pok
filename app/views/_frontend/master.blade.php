@@ -30,12 +30,18 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-3">
+        <div class="col-xs-4">
             <aside class="side-bar">
+                <h1>Heti gondolat</h1>
+                <blockquote class="quote-weekly">
+                    <p>"Az Igét nem tette silányabbá, hogy ember lett. De minket jobbá tett, hogy hozzá tartozunk."
+                        </p>
+                    <small>Szent Ágoston</small>
+                </blockquote>
                 @yield('aside')
             </aside>
         </div>
-        <div class="col-xs-9">
+        <div class="col-xs-8">
             @yield('content')
         </div>
     </div>
