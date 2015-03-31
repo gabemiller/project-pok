@@ -113,7 +113,6 @@ return array(
         'Lavary\Menu\ServiceProvider',
         'Jenssegers\Date\DateServiceProvider',
         'Philf\Setting\SettingServiceProvider',
-        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
         'Barryvdh\Elfinder\ElfinderServiceProvider'
     ),
     /*
