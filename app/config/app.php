@@ -108,7 +108,6 @@ return array(
         'Illuminate\Workbench\WorkbenchServiceProvider',
 
         'Cartalyst\Sentry\SentryServiceProvider',
-        'Way\Generators\GeneratorsServiceProvider',
         'DaveJamesMiller\Breadcrumbs\ServiceProvider',
         'Intervention\Image\ImageServiceProvider',
         'Lavary\Menu\ServiceProvider',
