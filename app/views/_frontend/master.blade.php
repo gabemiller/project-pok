@@ -46,11 +46,17 @@
     <div class="row">
         <div class="col-xs-4">
             <aside class="side-bar">
+
+                <img class="img-responsive"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/feltamadas_ikon.jpg'),'width'=>400,'height'=>400]) }}"
+                     alt="Feltámadás"
+                     title="Feltámadás"/>
+
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
-                    <p>"Az Igét nem tette silányabbá, hogy ember lett. De minket jobbá tett, hogy hozzá tartozunk."
+                    <p>„Örvendezéssel üljük meg ezt az ünnepet, mely a legkiválóbb az összes ünnepek között. A fényesség napja ez, az Úr feltámadása! Ünnepeljük meg együtt, vigassággal és áhítattal teli szívvel. Az Úr feltámadt és Vele az egész emberiség!”
                         </p>
-                    <small>Szent Ágoston</small>
+                    <small>Aranyszájú Szent János</small>
                 </blockquote>
                 @yield('aside')
             </aside>
