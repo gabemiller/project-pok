@@ -48,7 +48,7 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/feltamadas_ikon.jpg'),'width'=>400,'height'=>400]) }}"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/feltamadas_ikon.jpg'),'width'=>300,'height'=>300]) }}"
                      alt="Feltámadás"
                      title="Feltámadás"/>
 
