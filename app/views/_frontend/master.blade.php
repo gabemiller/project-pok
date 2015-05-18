@@ -49,8 +49,8 @@
 
                 <img class="img-responsive"
                      src="{{URl::route('kep.show',['url'=>urlencode('assets/virag.jpg'),'width'=>300,'height'=>300]) }}"
-                     alt="Feltámadás"
-                     title="Feltámadás"/>
+                     alt="Virág"
+                     title="Virág"/>
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
