@@ -48,15 +48,15 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/feltamadas_ikon.jpg'),'width'=>300,'height'=>300]) }}"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/virag.jpg'),'width'=>300,'height'=>300]) }}"
                      alt="Feltámadás"
                      title="Feltámadás"/>
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
-                    <p>„Örvendezéssel üljük meg ezt az ünnepet, mely a legkiválóbb az összes ünnepek között. A fényesség napja ez, az Úr feltámadása! Ünnepeljük meg együtt, vigassággal és áhítattal teli szívvel. Az Úr feltámadt és Vele az egész emberiség!”
+                    <p>„Mindnyájan a mennybe vágyódunk, ahol Isten van. De hatalmunkban áll, hogy már most a mennyben legyünk, s ebben a szempillantásban boldogok legyünk. Ehhez csak az kell, hogy szeressünk, ahogy ő szeret, vele legyünk, és segítsünk, ahogy ő segít, adjunk, ahogy ő ad, szolgáljunk, ahogy ő szolgál, s mentsünk meg embereket, ahogy ő megment minket.”
                         </p>
-                    <small>Aranyszájú Szent János</small>
+                    <small>Kalkuttai Teréz anya</small>
                 </blockquote>
                 @yield('aside')
             </aside>
