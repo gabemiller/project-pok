@@ -54,9 +54,9 @@
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
-                    <p>„Mindnyájan a mennybe vágyódunk, ahol Isten van. De hatalmunkban áll, hogy már most a mennyben legyünk, s ebben a szempillantásban boldogok legyünk. Ehhez csak az kell, hogy szeressünk, ahogy ő szeret, vele legyünk, és segítsünk, ahogy ő segít, adjunk, ahogy ő ad, szolgáljunk, ahogy ő szolgál, s mentsünk meg embereket, ahogy ő megment minket.”
+                    <p>„Te lélegezz bennem, Szentlélek Isten, hogy ami szent, azt akarjam. Te parancsolj nekem, Szentlélek Isten,hogy ami szent, mindig azt tegyem. Te hívogass engem, Szentlélek Isten, hogy ami szent, azt szeressem. Erősíts meg engem, Szentlélek Isten, hogy ami szent, hűséggel megvédjem. Te őrizz meg engem, Szentlélek Isten, hogy szent kegyelmed el ne veszítsem.”
                         </p>
-                    <small>Kalkuttai Teréz anya</small>
+                    <small>Szent Ágoston</small>
                 </blockquote>
                 @yield('aside')
             </aside>
