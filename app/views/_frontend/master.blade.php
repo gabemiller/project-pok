@@ -48,7 +48,7 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/virag.jpg'),'width'=>300,'height'=>300]) }}"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/virag2.jpg'),'width'=>300,'height'=>300]) }}"
                      alt="Virág"
                      title="Virág"/>
 
