@@ -48,15 +48,17 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/virag2.jpg'),'width'=>300,'height'=>300]) }}"
-                     alt="Virág"
-                     title="Virág"/>
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep.jpg'),'width'=>300,'height'=>300]) }}"
+                     alt="Kép"
+                     title="Kép"/>
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
-                    <p>„Te lélegezz bennem, Szentlélek Isten, hogy ami szent, azt akarjam. Te parancsolj nekem, Szentlélek Isten,hogy ami szent, mindig azt tegyem. Te hívogass engem, Szentlélek Isten, hogy ami szent, azt szeressem. Erősíts meg engem, Szentlélek Isten, hogy ami szent, hűséggel megvédjem. Te őrizz meg engem, Szentlélek Isten, hogy szent kegyelmed el ne veszítsem.”
+                    <p>„…amikor lenyugszik a nap és végetér napunk, kell, hogy újra imádkozzunk, és
+                        kérjük, hogy ismét felkeljen fölöttünk a fény, és kérjük azt is, hogy Krisztus
+                        eljövetele az örök élet kegyelmét hozza meg nekünk…”
                         </p>
-                    <small>Szent Ágoston</small>
+                    <small>Szent Cyprián</small>
                 </blockquote>
                 @yield('aside')
             </aside>
