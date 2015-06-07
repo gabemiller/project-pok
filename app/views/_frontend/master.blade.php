@@ -48,17 +48,47 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep.jpg'),'width'=>300,'height'=>300]) }}"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep2.jpg'),'width'=>300,'height'=>300]) }}"
                      alt="Kép"
                      title="Kép"/>
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
-                    <p>„…amikor lenyugszik a nap és végetér napunk, kell, hogy újra imádkozzunk, és
-                        kérjük, hogy ismét felkeljen fölöttünk a fény, és kérjük azt is, hogy Krisztus
-                        eljövetele az örök élet kegyelmét hozza meg nekünk…”
-                        </p>
-                    <small>Szent Cyprián</small>
+                    <p>
+                        Üdvözölt Légy kedves ünnep<br>
+                        Tiszta szívek ünnepe!<br>
+                        Ragyogjon be fehér fényed<br>
+                        Szívünk – lelkünk mélyébe.
+                    </p>
+                    <p>
+                        Napsugárban angyalszárnyak<br>
+                        Lenge libbenése kél,<br>
+                        És a szárnyuk és az arcuk<br>
+                        És az Úrnak fénye rajtuk<br>
+                        Hófehér.
+                    </p>
+                    <p>
+                        Napsugáros köntösében<br>
+                        Még a föld is úgy örül!<br>
+                        Tiszta napfény tündöklése<br>
+                        Játszik az oltár körül.<br>
+                        És megáll az áldozókon<br>
+                        Az oltár lépcsőinél<br>
+                        Égi fénnyel tűz reájuk<br>
+                        Hófehér.
+                    </p>
+                    <p>
+                        Boldogító örömével<br>
+                        El fog édes érzelem,<br>
+                        Égő sóhaj halk fohásza<br>
+                        Lebben át a lelkemen.<br>
+                        Édes Jézus szállj szívünkbe<br>
+                        S óvj halálig hű vezér,<br>
+                        Hogy a lelkük bármi harcon<br>
+                        Mindörökké megmaradjon<br>
+                        Hófehér.
+                    </p>
+                    <small>Sík Sándor: Fehér nap</small>
                 </blockquote>
                 @yield('aside')
             </aside>
