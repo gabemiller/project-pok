@@ -48,47 +48,16 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep2.jpg'),'width'=>300,'height'=>300]) }}"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep3.jpg'),'width'=>300,'height'=>300]) }}"
                      alt="Kép"
                      title="Kép"/>
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
                     <p>
-                        Üdvözölt Légy kedves ünnep<br>
-                        Tiszta szívek ünnepe!<br>
-                        Ragyogjon be fehér fényed<br>
-                        Szívünk – lelkünk mélyébe.
+                        Csak az Istennel együtt életképes az ember. Nélküle súlyos betegség támadja meg, s ez a betegség elragadja örömét és képességét is az örömre.
                     </p>
-                    <p>
-                        Napsugárban angyalszárnyak<br>
-                        Lenge libbenése kél,<br>
-                        És a szárnyuk és az arcuk<br>
-                        És az Úrnak fénye rajtuk<br>
-                        Hófehér.
-                    </p>
-                    <p>
-                        Napsugáros köntösében<br>
-                        Még a föld is úgy örül!<br>
-                        Tiszta napfény tündöklése<br>
-                        Játszik az oltár körül.<br>
-                        És megáll az áldozókon<br>
-                        Az oltár lépcsőinél<br>
-                        Égi fénnyel tűz reájuk<br>
-                        Hófehér.
-                    </p>
-                    <p>
-                        Boldogító örömével<br>
-                        El fog édes érzelem,<br>
-                        Égő sóhaj halk fohásza<br>
-                        Lebben át a lelkemen.<br>
-                        Édes Jézus szállj szívünkbe<br>
-                        S óvj halálig hű vezér,<br>
-                        Hogy a lelkük bármi harcon<br>
-                        Mindörökké megmaradjon<br>
-                        Hófehér.
-                    </p>
-                    <small>Sík Sándor: Fehér nap</small>
+                    <small>Alfred Delp</small>
                 </blockquote>
                 @yield('aside')
             </aside>
