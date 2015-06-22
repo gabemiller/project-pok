@@ -48,16 +48,16 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep3.jpg'),'width'=>300,'height'=>300]) }}"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep4.jpg'),'width'=>300,'height'=>300]) }}"
                      alt="Kép"
                      title="Kép"/>
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
                     <p>
-                        Csak az Istennel együtt életképes az ember. Nélküle súlyos betegség támadja meg, s ez a betegség elragadja örömét és képességét is az örömre.
+                        Aki Istent ismeri, róla gondolkodik és őt szereti, az már Istennél van, benne él, és Isten van őbenne.
                     </p>
-                    <small>Alfred Delp</small>
+                    <small>Eckehart mester</small>
                 </blockquote>
                 @yield('aside')
             </aside>
