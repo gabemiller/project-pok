@@ -48,16 +48,20 @@
             <aside class="side-bar">
 
                 <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep4.jpg'),'width'=>300,'height'=>300]) }}"
+                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep.jpg'),'width'=>300,'height'=>300]) }}"
                      alt="Kép"
                      title="Kép"/>
 
                 <h1>Heti gondolat</h1>
                 <blockquote class="quote-weekly">
                     <p>
-                        Aki Istent ismeri, róla gondolkodik és őt szereti, az már Istennél van, benne él, és Isten van őbenne.
+                        Ó, Istenünk, tedd, hogy hatásos eszközöd legyek annak megértésében,
+
+                        hogy igazi testvériség nem jöhet létre annak elismerése nélkül, hogy
+
+                        mindnyájunk közös Atyja vagy. Amen.
                     </p>
-                    <small>Eckehart mester</small>
+                    <small>James Keller</small>
                 </blockquote>
                 @yield('aside')
             </aside>
