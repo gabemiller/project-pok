@@ -4,5 +4,5 @@ namespace Divide\CMS;
 class Quote extends \Eloquent
 {
     protected $table = 'quotes';
-    protected $fillable = ['quote', 'author'];
+    protected $fillable = ['quote', 'author', 'picture'];
 }

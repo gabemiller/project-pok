@@ -1,11 +1,7 @@
 <?php
 
 View::composer('index', function ($view) {
-    $quotes = Cache::remember('quotes', 1440, function () {
-        return \Divide\CMS\Quote::orderByRaw('RAND()')
-            ->take(10)
-            ->get(['quote', 'author']);
-    });
+    $quote = \Divide\CMS\Quote::orderBy('created_at', 'desc')->first();
 
-    $view->with('quotes',$quotes);
+    $view->with('quote', $quote);
 });

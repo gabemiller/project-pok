@@ -108,6 +108,8 @@ Route::group(array('prefix' => 'admin', 'before' => 'userNotLoggedIn|inGroup:Adm
 
     Route::get('elfinder/ckeditor4', 'Barryvdh\Elfinder\ElfinderController@showCKeditor4');
 
+    Route::get('elfinder/standalonepopup/{input_id}', 'Barryvdh\Elfinder\ElfinderController@showPopup');
+
 });
 
 Route::group(array('prefix' => 'admin', 'namespace' => 'Admin', 'before' => 'userNotLoggedIn|inGroup:Admin'), function () {
@@ -130,6 +132,8 @@ Route::group(array('prefix' => 'admin', 'namespace' => 'Admin', 'before' => 'use
     Route::resource('menu-kezelo', 'MenuController');
 
     Route::resource('galeria', 'GalleryController');
+
+    Route::resource('idezet', 'QuoteController');
 
     Route::get('galeria/kep/{id}/upload', ['uses' => 'GalleryController@getPicture', 'as' => 'admin.galeria.kep.upload'])->where('id', '[0-9]+');
 
@@ -252,6 +256,22 @@ if (Request::is('admin') || Request::is('admin/*')) {
 
         $menu->get('felhasználók')->add('Összes felhasználó',
             ['route' => 'admin.felhasznalok.felhasznalo.index'])
+            ->prepend('<i class="fa fa-angle-double-right "></i> ');
+
+        /**
+         * Idézetek menüpont
+         */
+
+        $menu->add('Idézetek', ['class' => 'treeview'])
+            ->append('<i class="fa pull-right fa-angle-left"></i>')
+            ->prepend('<i class="fa fa-quote-left"></i> ');
+
+        $menu->get('idézetek')->add('Új hozzáadása',
+            ['route' => 'admin.idezet.create'])
+            ->prepend('<i class="fa fa-angle-double-right "></i> ');
+
+        $menu->get('idézetek')->add('Összes idézet',
+            ['route' => 'admin.idezet.index'])
             ->prepend('<i class="fa fa-angle-double-right "></i> ');
 
 
