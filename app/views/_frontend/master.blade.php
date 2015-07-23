@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -47,22 +47,19 @@
         <div class="col-xs-4">
             <aside class="side-bar">
 
-                <img class="img-responsive"
-                     src="{{URl::route('kep.show',['url'=>urlencode('assets/kep.jpg'),'width'=>300,'height'=>300]) }}"
-                     alt="Kép"
-                     title="Kép"/>
+                @if(!empty($quote))
+                    <img class="img-responsive"
+                         src="{{URl::route('kep.show',['url'=>urlencode($quote->picture),'width'=>300,'height'=>300]) }}"
+                         alt="{{$quote->author}}"
+                         title="{{$quote->author}}"/>
 
-                <h1>Heti gondolat</h1>
-                <blockquote class="quote-weekly">
-                    <p>
-                        Ó, Istenünk, tedd, hogy hatásos eszközöd legyek annak megértésében,
-
-                        hogy igazi testvériség nem jöhet létre annak elismerése nélkül, hogy
-
-                        mindnyájunk közös Atyja vagy. Amen.
-                    </p>
-                    <small>James Keller</small>
-                </blockquote>
+                    <h1>Heti gondolat</h1>
+                    <blockquote class="quote-weekly">
+                        <p>{{$quote->quote}}</p>
+                        <small>{{$quote->author}}</small>
+                    </blockquote>
+                @endif
+                
                 @yield('aside')
             </aside>
         </div>
