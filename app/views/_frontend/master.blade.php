@@ -59,7 +59,7 @@
                         <small>{{$quote->author}}</small>
                     </blockquote>
                 @endif
-                
+
                 @yield('aside')
             </aside>
         </div>

@@ -11,7 +11,7 @@
 
                 @include('_backend.message')
 
-                {{Form::open(array('url' => URL::route('admin.dokumentum.update',array('id'=>$document->id)),'class'=>'form-horizontal','method'=>'PUT','files'=>true))}}
+                {{Form::open(array('url' => URL::route('admin.idezet.update',array('id'=>$quote->id)),'class'=>'form-horizontal','method'=>'PUT','files'=>true))}}
                 <div class="box box-solid">
                     <div class="box-body">
                         {{Form::submit('Mentés',array('class'=>'btn btn-divide btn-sm btn-copy'))}}
