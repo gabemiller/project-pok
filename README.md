@@ -1,3 +1,4 @@
 # project-pok
 
-Project home: (http://pokrova.hu)
+Project home: http://pokrova.hu
+ 
