@@ -11,7 +11,7 @@
                 <h1>Köszönjük támogatását!</h1>
 
                 <ul class="list-unstyled">
-                    <li class="patreon">Miskolc-Görömbölyi Görög Katolikus Egyházközség <br> <strong>10700086-48677402-51100005</strong>
+                    <li class="patreon">{{Setting::get('site-title')}} <br> <strong>10700086-48677402-51100005</strong>
                     </li>
                     <li class="patreon">Bacsinszky András Alapítvány <br> <strong>11734004-20424813</strong></li>
                     <li class="patreon">Szent Konstantin és Ilona Alapítvány <br> <strong>11734004-20423812</strong>
