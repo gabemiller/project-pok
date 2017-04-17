@@ -13,8 +13,15 @@
                 <ul class="list-unstyled">
                     <li class="patreon">{{Setting::get('site-title')}} <br> <strong>10700086-48677402-51100005</strong>
                     </li>
-                    <li class="patreon">Bacsinszky András Alapítvány <br> <strong>11734004-20424813</strong></li>
-                    <li class="patreon">Szent Konstantin és Ilona Alapítvány <br> <strong>11734004-20423812</strong>
+                    <li class="patreon">
+                        Bacsinszky András Alapítvány<br>
+                        <strong>11734004-20424813</strong>
+                        <br>
+                        <strong>18423303-1-05</strong>
+                    </li>
+                    <li class="patreon">
+                        Magyar Katolikus Egyház technikai száma<br>
+                        <strong>0011</strong>
                     </li>
                 </ul>
 
