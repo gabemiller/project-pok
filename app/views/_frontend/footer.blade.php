@@ -9,14 +9,14 @@
         <div class="row">
             <div class="col-xs-4">
                 <h1>Köszönjük támogatását!</h1>
-
                 <ul class="list-unstyled">
-                    <li class="patreon">{{Setting::get('site-title')}} <br> <strong>10700086-48677402-51100005</strong>
+                    <li class="patreon">
+                        {{Setting::get('site-title')}} <br>
+                        <strong>10700086-48677402-51100005</strong>
                     </li>
                     <li class="patreon">
                         Bacsinszky András Alapítvány<br>
-                        <strong>11734004-20424813</strong>
-                        <br>
+                        <strong>10700086-71570864-51100005</strong><br>
                         <strong>18423303-1-05</strong>
                     </li>
                     <li class="patreon">
@@ -24,8 +24,8 @@
                         <strong>0011</strong>
                     </li>
                 </ul>
-
             </div>
+
             <div class="col-xs-4">
                 <h1>Elérhetőség</h1>
                 <address>
